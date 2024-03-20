@@ -1,0 +1,13 @@
+:root {
+    --butterflies: pink;
+    --text-color: black;
+}
+
+.one {
+background-color: var(--butterflies); 
+color: var(--text-color);  
+}
+
+body {
+    background-color: var(--background-color, pink);
+}
